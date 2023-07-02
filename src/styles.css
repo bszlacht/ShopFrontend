@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  /*If we have box width of 100px
+   adding margin or padding wont make it for example 130 (100 + 10(margin) + 20 (padding))*/
+}
+
+body {
+  margin: 0; /*we dont want any space around body*/
+  font-family: Quicksand, sans-serif; /*all inside body will be with Quicksand font*/
+  font-size: 18px; /*the font size inside body*/
+}
+
+a {
+  text-decoration: none;
+}
